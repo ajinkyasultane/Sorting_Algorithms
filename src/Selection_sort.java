@@ -15,7 +15,7 @@ class Selection_sort
             int last = arr.length - i -1;
             int maxIndex = getmaxIndex(arr,0,last);
 
-        swap(arr ,maxIndex,last);
+        swap(arr ,maxIndex,last) ;
         }
     }
     static void swap(int[] arr , int first , int second)
